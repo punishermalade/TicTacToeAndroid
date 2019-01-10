@@ -1,0 +1,56 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GeneralContainer">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="GameScore" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/score_text_top_bottom_padding</item>
+        <item name="android:paddingBottom">@dimen/score_text_top_bottom_padding</item>
+    </style>
+
+    <style name="BoardBoxItem" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ResetButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingBottom">@dimen/button_reset_padding_top_bottom</item>
+        <item name="android:paddingTop">@dimen/button_reset_padding_top_bottom</item>
+        <item name="android:paddingLeft">@dimen/button_reset_padding_side</item>
+        <item name="android:paddingRight">@dimen/button_reset_padding_side</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="GameScoreWin" parent="GameScore">
+        <item name="android:background">@color/colorGameScoreWinBackground</item>
+    </style>
+
+    <style name="GameScoreLoss" parent="GameScore">
+        <item name="android:background">@color/colorGameScoreLossBackground</item>
+    </style>
+
+    <style name="GameScoreDraw" parent="GameScore">
+        <item name="android:background">@color/colorGameScoreDrawBackground</item>
+    </style>
+
+    <style name="GameTip" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

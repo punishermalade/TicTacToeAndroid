@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="board_grid_margin_top">25dp</dimen>
+    <dimen name="board_grid_margin_between_cell">5dp</dimen>
+    <dimen name="board_cell_width">100dp</dimen>
+    <dimen name="board_cell_height">100dp</dimen>
+
+    <dimen name="button_rounded_corner_radius">10dp</dimen>
+    <dimen name="button_reset_padding_top_bottom">10dp</dimen>
+    <dimen name="button_reset_padding_side">40dp</dimen>
+
+    <dimen name="score_text_side_margin">20dp</dimen>
+    <dimen name="score_text_top_bottom_padding">20dp</dimen>
+    <dimen name="game_tip_bottom_margin">15dp</dimen>
+
+</resources>

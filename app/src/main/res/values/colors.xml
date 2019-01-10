@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#827a71</color>
+    <color name="colorPrimaryDark">#827a71</color>
+    <color name="colorAccent">#a39b91</color>
+
+    <color name="colorBoardBorder">#d6d0c9</color>
+    <color name="colorBoardCellBackground">#FFFFFF</color>
+    <color name="colorButtonDisabled">#d6d0c9</color>
+
+    <color name="colorGameScoreWinBackground">#84bc86</color>
+    <color name="colorGameScoreLossBackground">#bc8484</color>
+    <color name="colorGameScoreDrawBackground">#444444</color>
+</resources>

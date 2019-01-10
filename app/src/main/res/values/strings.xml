@@ -1,0 +1,22 @@
+<resources>
+    <!-- general text -->
+    <string name="app_name">TicTacToe</string>
+    <string name="game_score_wins_format">Wins: %d</string>
+    <string name="game_score_losses_format">Losses: %d</string>
+    <string name="game_score_draws_format">Draws: %d</string>
+
+    <string name="reset_button_text">Start New Game</string>
+
+    <!-- tag unique id -->
+    <string name="board_box_id_tag">BOX_ID_TAG</string>
+    <string name="board_box_content_id_tag">CONTENT_ID_TAG</string>
+
+    <string name="game_tip_1_first_install">TIP\nTouch the board to play the first turn against the computer. You are the X\'s. Good luck!</string>
+    <string name="game_tip_2_game_over">TIP\nThe game is over. Long press the score area to reset the score and play first!</string>
+    <string name="game_tip_3_computer_unbeatable">TIP\nThe computer will always try to block you from winning. Expect a draw in most cases.</string>
+
+    <string name="reset_score_title">@string/app_name</string>
+    <string name="reset_score_msg">Do you really want to restart the game, the score will be reset and you will be the first one to play?</string>
+    <string name="reset_score_yes">Reset</string>
+    <string name="reset_score_no">No</string>
+</resources>
